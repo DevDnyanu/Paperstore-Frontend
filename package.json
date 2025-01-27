@@ -23,11 +23,12 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-stepper-horizontal": "^1.0.11",
     "react-toastify": "^11.0.2",
     "styled-components": "^6.1.13",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "webpack": "^5.97.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,7 +55,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
     "postcss": "^8.4.49",
