@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20  # Use Node.js version 20
+    commands:
+      - npm install  # Install dependencies
+
+  build:
+    commands:
+      - npm run build  # Build the React app
+
+artifacts:
+  files:
+    - '**/*'  # Include all files in the build output
+  discard-paths: no  # Preserve the directory structure
