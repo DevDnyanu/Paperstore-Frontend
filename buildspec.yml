@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 20  # Use Node.js version 20
+      nodejs: 22  # Use Node.js version 22
     commands:
       - npm install  # Install dependencies
 
@@ -14,4 +14,4 @@ phases:
 artifacts:
   files:
     - '**/*'  # Include all files in the build output
-  discard-paths: no  # Preserve the directory structure
+  discard-paths: no  # Preserve the directory str
